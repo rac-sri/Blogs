@@ -115,7 +115,7 @@ $$Order E(F_q) = q+1-t, {\space } where |t| <= 2\sqrt{q}$$
 
 ### What Is the Endomorphism Ring?
 
-The endomorphism ring End(E)\\text{End}(E) is a collection of all "maps" (functions) that take points on an elliptic curve EE and send them to other points on the same curve, while preserving the group structure. These maps can be thought of as ways to transform the curve while keeping its essential properties intact.
+The endomorphism ring \\(End(E)\\) is a collection of all "maps" (functions) that take points on an elliptic curve EE and send them to other points on the same curve, while preserving the group structure. These maps can be thought of as ways to transform the curve while keeping its essential properties intact.
 
 In this ring:
 
