@@ -46,12 +46,12 @@ e.g.:
 
 ### Selector Polynomial
 
-Let's assume a polynomial \\(l_i(x)\\) which means is \\(c_i\\) the left input of gate j, for j = 1,2,3, where \\(c_i\\) is the value in the i'th position in the transcript ( as in the above image ).
+Let's assume a polynomial \\(l_i(x)\\) which means: is \\(c_i\\) the left input of gate j ?, for j = 1,2,3, where \\(c_i\\) is the value in the i'th position in the transcript ( as in the above image ).
 
 e.g.
 
 1. \\(l_1(x) : (1,0,0)\\).  
-    The polynomial interpolation at a known set \\(\Omega\\) : \\(l_1(w) = 1, l_1(w^2) = 0, l_1(w^3) = 0\\).
+    How? Is \\(c_1\\) left input of gate 1 ? Yes. Is \\(c_1\\) left input of gate 2: No. And finally is \\(c_1\\) left input of gate 3: No. The polynomial interpolation at a known set \\(\Omega\\) : \\(l_1(w) = 1, l_1(w^2) = 0, l_1(w^3) = 0\\).
     
 2. \\(l_x(x) : (0, 0 ,1)\\)
     
