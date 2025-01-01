@@ -43,7 +43,7 @@ To show the above can be done using a linear PCP model.
 
 ---
 
-**Some termonologies before we continue further:**
+**Some terminologies before we continue further:**
 
 * **Knowledge of exponentiation:**
     
