@@ -40,9 +40,9 @@ $$M*M \rightarrow R$$
 
 where bilinearity property of the map means:
 
-$$< x+y, z> = <x,z> * <y,z >$$
+$$( x+y, z) = (x,z) * (y,z )$$
 
-$$<x,y+z> = <x,y>*<x,z>$$
+$$(x,y+z)= (x,y)*(x,z)$$
 
 The most common notion for the same is \\(e: G_1 * G_2 \rightarrow G_T\\)
 
