@@ -149,12 +149,11 @@ Kademlia elegantly solves the challenge of decentralized lookup and storage thro
 
 ---
 
-For more updates, insights, and discussions, connect with me on Twitter: [@privacy\_prophet](https://x.com/privacy_prophet) or [LinkedIn](https://www.linkedin.com/in/rachit-anand-srivastava/).
-
----
-
 ## References
 
 * [https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf](https://pdos.csail.mit.edu/~petar/papers/maymounkov-kademlia-lncs.pdf)
     
 * [https://codethechange.stanford.edu/guides/guide\_kademlia.html](https://codethechange.stanford.edu/guides/guide_kademlia.html#)
+    
+
+For more updates, insights, and discussions, connect with me on Twitter: [@privacy\_prophet](https://x.com/privacy_prophet) or [LinkedIn](https://www.linkedin.com/in/rachit-anand-srivastava/).
