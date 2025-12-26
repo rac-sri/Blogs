@@ -110,10 +110,8 @@ I lean heavily on AI for coding assistance, using multiple specialized tools rat
     
 * [**copilot.vim**](https://github.com/github/copilot.vim): The classic GitHub Copilot integration. I keep this for quick tab style completion in places where privacy is not a concern..
     
-
 * [**avante.nvim**](https://github.com/yetone/avante.nvim) **( disabled )**: An advanced AI chat interface that sits in a sidebar. It supports multiple providers (Gemini, Claude, OpenAI) and even allows pasting images for analysis.
     
-
 * [**gemini-cli.nvim**](https://github.com/marcinjahn/gemini-cli.nvim) **( disabled )**: A direct line to Google's Gemini models for quick questions and code generation directly from the editor.
     
 
@@ -176,7 +174,7 @@ I use a opensource setup called [OhMyOpenCode](https://github.com/code-yeongyu/o
             model: google/gemini-3-flash 
         } 
     }     
-} 
+}
 ```
 
 I'm using a hybrid model strategy:
@@ -197,7 +195,7 @@ instructions: [
     CONTRIBUTING.md, 
     docs/guidelines.md, 
     .cursor/rules/*.md 
-] 
+]
 ```
 
 This ensures the AI respects my repo's specific conventions (like "no any types" or "React functional components only") without me repeating prompts.
@@ -234,7 +232,6 @@ It’s not just about looking cool—it keeps me in the flow state without jarri
         
     * **Use Case:** "How does this function work?" or "Explain this error." It uses Gemini 3 Pro Low to be cost-effective but smarter than a basic model.
         
-
 2. **The "Webcrawler" Agent (Researcher)**
     
     I don't want my coding assistant hallucinating facts about the world. Webcrawler (agent/[Webcrawler.md](http://Webcrawler.md)) is my general knowledge researcher.
@@ -245,6 +242,27 @@ It’s not just about looking cool—it keeps me in the flow state without jarri
         
     * **Use Case:** "What are the latest features in React 19?" or general web research.
         
+
+---
+
+## Terminal - Ghostty
+
+I use [Ghostty](https://ghostty.org/) as my primary terminal with the following config:
+
+[https://github.com/rac-sri/personal-config/blob/main/ghostty.config](https://github.com/rac-sri/personal-config/blob/main/ghostty.config).  
+Main appearance limited config is below:
+
+```yaml
+# ---- Appearance ----
+theme = Adventure
+background-blur = true
+background-opacity = 1
+background-image = ~/.config/ghostty/image.png
+background-image-opacity = 0.5
+....
+```
+
+with the image being a free to use artwork I pulled from the internet : [https://github.com/rac-sri/personal-config/blob/main/image.png](https://github.com/rac-sri/personal-config/blob/main/image.png).
 
 ---
 
