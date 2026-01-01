@@ -17,7 +17,7 @@ A KZG polynomial commitment scheme allows a prover to commit to a polynomial so 
 
 Prequistics:
 
-* How c[yclic groups](https://www.di.ens.fr/~fouque/CoursBCS3.pdf) work in Numbers Theory
+* How [cyclic groups](https://www.di.ens.fr/~fouque/CoursBCS3.pdf) work in Numbers Theory
     
 * Discrete Log + [Diffie-Hellman](https://www.nku.edu/~christensen/092mat483%20DH%20key%20exchange.pdf)
     
