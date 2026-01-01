@@ -117,21 +117,19 @@ $$\pi = g ^ {q(\tau) + r^{'}\eta} , g^{r-r^{'} (\tau - u)}$$
 
 1. **Batch opening: Single Polynomial:**
     
-
-* * Prover wants to prove \\(f\\) at \\(u_1,\ldots, u_m \\) for m&lt;d.
+    * Prover wants to prove \\(f\\) at \\(u_1,\ldots, u_m \\) for m&lt;d.
         
-        * Steps:
-            
-            * Extrapolate \\(f(u_1),\ldots,f(u_m)\\) to get \\(h(x)\\)
-                
-            * \\(f(x) - h(x) = \prod_{i=1}^m(x-u_i)q(x)\\). Why? Check the roots of polynomials on LHS.
-                
-            * \\(\pi = g ^ {q(\tau)}\\)
-                
-            * \\(e ( com_f / g^ {h(\tau)}, g) = e(g^{\prod_{i=1}^m(\tau - u_i)}, \pi)\\) where \\(g^{h(r)}\\) verifier can calculate using the global params.
-                
-
-1. **Batch opening: Multiple Polynomials**
+        \* Steps:
+        
+        \* Extrapolate \\(f(u_1),\ldots,f(u_m)\\) to get \\(h(x)\\)
+        
+        \* \\(f(x) - h(x) = \prod_{i=1}^m(x-u_i)q(x)\\). Why? Check the roots of polynomials on LHS.
+        
+        \* \\(\pi = g ^ {q(\tau)}\\)
+        
+        \* \\(e ( com_f / g^ {h(\tau)}, g) = e(g^{\prod_{i=1}^m(\tau - u_i)}, \pi)\\) where \\(g^{h(r)}\\) verifier can calculate using the global params.
+        
+2. **Batch opening: Multiple Polynomials**
     
     * Prover wants to prove \\(f_i(u_{i,j}) = v_{i,j}\\)
         
